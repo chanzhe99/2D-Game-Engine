@@ -1,0 +1,63 @@
+\hypertarget{class_particle_object}{}\doxysection{Particle\+Object Class Reference}
+\label{class_particle_object}\index{ParticleObject@{ParticleObject}}
+
+
+\mbox{\hyperlink{class_particle_object}{Particle\+Object}} class, child of \mbox{\hyperlink{class_game_object}{Game\+Object}}.  
+
+
+
+
+{\ttfamily \#include $<$Particle\+Object.\+h$>$}
+
+Inheritance diagram for Particle\+Object\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_particle_object}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_particle_object_a6071a8df79065cfc8cbb02898b09706c}\label{class_particle_object_a6071a8df79065cfc8cbb02898b09706c}} 
+\mbox{\hyperlink{class_particle_object_a6071a8df79065cfc8cbb02898b09706c}{Particle\+Object}} ()
+\begin{DoxyCompactList}\small\item\em Initialises a \mbox{\hyperlink{class_particle_object}{Particle\+Object}} instance with default values. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_particle_object_a14f4f3219c2f1e35c6dae4112f65f734}\label{class_particle_object_a14f4f3219c2f1e35c6dae4112f65f734}} 
+\mbox{\hyperlink{class_particle_object_a14f4f3219c2f1e35c6dae4112f65f734}{Particle\+Object}} (\mbox{\hyperlink{class_sprite}{Sprite}} $\ast$Desired\+Sprite, const \mbox{\hyperlink{class_vector2}{Vector2}} \&Desired\+Velocity, float Desired\+Lifetime)
+\begin{DoxyCompactList}\small\item\em Initialises a \mbox{\hyperlink{class_particle_object}{Particle\+Object}} instance that takes in \mbox{\hyperlink{class_sprite}{Sprite}} pointer, \mbox{\hyperlink{class_vector2}{Vector2}} reference for velocity, and float for max lifetime. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_particle_object_a4a86fec0fc497a3db4a989d9570f340b}\label{class_particle_object_a4a86fec0fc497a3db4a989d9570f340b}} 
+\mbox{\hyperlink{class_vector2}{Vector2}} \mbox{\hyperlink{class_particle_object_a4a86fec0fc497a3db4a989d9570f340b}{Get\+Velocity}} ()
+\begin{DoxyCompactList}\small\item\em Returns a \mbox{\hyperlink{class_vector2}{Vector2}} of the \mbox{\hyperlink{class_particle_object}{Particle\+Object}}\textquotesingle{}s velocity. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_particle_object_a6ea4c576aa5dd321641ca058a9b35fa4}\label{class_particle_object_a6ea4c576aa5dd321641ca058a9b35fa4}} 
+\mbox{\hyperlink{class_vector2}{Vector2}} \mbox{\hyperlink{class_particle_object_a6ea4c576aa5dd321641ca058a9b35fa4}{Get\+Acceleration}} ()
+\begin{DoxyCompactList}\small\item\em Returns a \mbox{\hyperlink{class_vector2}{Vector2}} of the \mbox{\hyperlink{class_particle_object}{Particle\+Object}}\textquotesingle{}s acceleration. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_particle_object_aec0917938b391b52f19cfe45c4ff2ef7}\label{class_particle_object_aec0917938b391b52f19cfe45c4ff2ef7}} 
+float \mbox{\hyperlink{class_particle_object_aec0917938b391b52f19cfe45c4ff2ef7}{Get\+Max\+Lifetime}} ()
+\begin{DoxyCompactList}\small\item\em Returns a float of the \mbox{\hyperlink{class_particle_object}{Particle\+Object}}\textquotesingle{}s max lifetime. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_particle_object_a4119179d3394c5b818ad5eec145709ad}\label{class_particle_object_a4119179d3394c5b818ad5eec145709ad}} 
+float \mbox{\hyperlink{class_particle_object_a4119179d3394c5b818ad5eec145709ad}{Get\+Current\+Lifetime}} ()
+\begin{DoxyCompactList}\small\item\em Returns a float of the \mbox{\hyperlink{class_particle_object}{Particle\+Object}}\textquotesingle{}s current lifetime. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_particle_object_acd9201a2108aa53c6ca9990326a37684}\label{class_particle_object_acd9201a2108aa53c6ca9990326a37684}} 
+void \mbox{\hyperlink{class_particle_object_acd9201a2108aa53c6ca9990326a37684}{Set\+Velocity}} (const \mbox{\hyperlink{class_vector2}{Vector2}} \&Desired\+Velocity)
+\begin{DoxyCompactList}\small\item\em Takes in a \mbox{\hyperlink{class_vector2}{Vector2}} reference and sets the \mbox{\hyperlink{class_particle_object}{Particle\+Object}}\textquotesingle{}s velocity. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_particle_object_abe77118b8f3b9f12b2304fd8b2a3fb17}\label{class_particle_object_abe77118b8f3b9f12b2304fd8b2a3fb17}} 
+void \mbox{\hyperlink{class_particle_object_abe77118b8f3b9f12b2304fd8b2a3fb17}{Set\+Acceleration}} (const \mbox{\hyperlink{class_vector2}{Vector2}} \&Desired\+Acceleration)
+\begin{DoxyCompactList}\small\item\em Takes in a \mbox{\hyperlink{class_vector2}{Vector2}} reference and sets the \mbox{\hyperlink{class_particle_object}{Particle\+Object}}\textquotesingle{}s acceleration. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_particle_object_a303a51088dd82c61ea346fb748a69581}\label{class_particle_object_a303a51088dd82c61ea346fb748a69581}} 
+void \mbox{\hyperlink{class_particle_object_a303a51088dd82c61ea346fb748a69581}{Set\+Max\+Lifetime}} (float Desired\+Max\+Lifetime)
+\begin{DoxyCompactList}\small\item\em Takes in a float and sets the \mbox{\hyperlink{class_particle_object}{Particle\+Object}}\textquotesingle{}s max lifetime. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_particle_object_a13ed062f5ca824b0c6dcdd9612a08dbb}\label{class_particle_object_a13ed062f5ca824b0c6dcdd9612a08dbb}} 
+void \mbox{\hyperlink{class_particle_object_a13ed062f5ca824b0c6dcdd9612a08dbb}{Set\+Current\+Lifetime}} (float Desired\+Current\+Lifetime)
+\begin{DoxyCompactList}\small\item\em Takes in a float and sets the \mbox{\hyperlink{class_particle_object}{Particle\+Object}}\textquotesingle{}s current lifetime. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_particle_object_a7611b128fc8d7bda09b47c1d80909365}\label{class_particle_object_a7611b128fc8d7bda09b47c1d80909365}} 
+void \mbox{\hyperlink{class_particle_object_a7611b128fc8d7bda09b47c1d80909365}{Update}} (float Delta\+Time)
+\begin{DoxyCompactList}\small\item\em Updates the \mbox{\hyperlink{class_particle_object}{Particle\+Object}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{class_particle_object}{Particle\+Object}} class, child of \mbox{\hyperlink{class_game_object}{Game\+Object}}. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/fyr3f/\+Desktop/\+Game Engine \& Architecture/0121556\+\_\+\+Chan\+Zhe\+\_\+\+Game\+Engine\+\_\+\+Final/2\+D\+Game\+Engine/2\+D\+Game\+Engine/Particle\+Object.\+h\item 
+C\+:/\+Users/fyr3f/\+Desktop/\+Game Engine \& Architecture/0121556\+\_\+\+Chan\+Zhe\+\_\+\+Game\+Engine\+\_\+\+Final/2\+D\+Game\+Engine/2\+D\+Game\+Engine/Particle\+Object.\+cpp\end{DoxyCompactItemize}
